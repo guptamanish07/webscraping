@@ -11,9 +11,6 @@ request(url,function(err,response,html){
         for(let i=1;i<5;i++){
 
         const s =dom.window.document.querySelectorAll("#manse tr")[i].firstElementChild.textContent;
-        
-
-        
         company.push(s);
         }
         console.log(company);
