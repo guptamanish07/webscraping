@@ -1,0 +1,20 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "web scriping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "manish",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dompurify": "^1.0.10",
+    "jquery": "^3.4.1",
+    "jsdom": "^15.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
